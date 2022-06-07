@@ -1,0 +1,148 @@
+body {
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #E0E8FF;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+h2{
+    margin-top: 0;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+h3{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.card-container{
+    background-color: #FEFFFF;
+    width: 420px;
+    height: 670px;
+    margin: 7% auto 7% auto;
+    border-radius: 15px;
+}
+
+.illustration-hero-img{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
+
+.card-body{
+    padding: 10%;
+}
+
+.order-summary-container{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.annual-plan-container{
+    display: flex;
+    background-color: #F8F9FE;
+    border-radius: 10px;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.annual-plan-container a{
+    margin-left: auto;
+    margin-right: 20px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+
+.annual-plan-container a:hover{
+    color: hsl(245, 81%, 65%);
+    transition: ease-in 0.15s
+}
+
+.annual-plan-container img{
+    width: 17%;
+    height: 17%;
+    margin: 10px 20px 10px 10px;
+}
+
+.annual-plan-container h3{
+    margin: 0;
+}
+
+.annual-plan-container p{
+    margin: 0;
+}
+
+.payment-button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 30px auto;
+    box-shadow: 0 20px 20px hsla(223, 61%, 46%, 0.308);
+}
+
+.payment-button:hover{
+    background-color: hsl(245, 81%, 65%);
+    transition: ease-in 0.2s;
+}
+
+.cancel-order-tag{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-order-tag:hover{
+    color: hsl(223, 47%, 23%);
+    transition: ease-in 0.2s;
+}
+
+.attribution{
+    text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+    .card-container{
+        background-color: #FEFFFF;
+        width: 80%;
+        height: 80%;
+        margin: 7% auto 7% auto;
+        border-radius: 15px;
+    }
+    
+    .annual-plan-container img{
+        width: 17%;
+        height: 17%;
+        margin: 5px 10px 5px 5px;
+    }
+
+    .annual-plan-container a{
+        margin-left: auto;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    
+    h3, p, a{
+        font-size: 14px;
+    }
+
+    .payment-button{
+        font-size: 14px;
+    }
+}
